@@ -1,3 +1,217 @@
-*{
-    width: 1440px ;
+body {
+    width: 1300px;
+}
+
+* {
+    font-family: inherit;
+}
+
+/* lets-help-section */
+.lets-help-section {
+    height: 1000px;
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation10.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* background: linear-gradient(360deg, #12121200 0%, rgba(18, 18, 18, 0) 100%); */
+}
+
+.donation-title {
+    color: aliceblue;
+    font-size: 65px;
+    padding-top: 300px;
+}
+
+/* donate-today-section */
+.donate-today-section {
+    text-align: center;
+    background-color: antiquewhite
+}
+
+.second-donation-title {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.donation-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 20px 0;
+}
+
+.btn-primary {
+    padding: 16px 12px;
+    background: rgb(128, 98, 0);
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.donation-amount {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+    padding-top: 50px;
+}
+
+.donation-amount li:hover {
+    border: red 1px solid;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.donation-amount li {
+    padding: 10px 15px;
+}
+
+.other-amount {
+    color: lightslategray;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+hr {
+    color: bisque;
+}
+
+.donation-plane-section {
+    background-color: azure;
+    margin-top: 130px;
+}
+
+.donation-plane-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donation-plane-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+.plane-cards{
+    display: flex;
+    gap: 30px;
+}
+.plane-card img {
+    width: 60px;
+}
+.plane-card{
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 10px;
+}
+/* dependence-section */
+.dependence-section{
+    display: flex;
+    margin-top: 100px;
+    gap: 85px;
+}
+.dependence-section img{
+    width: 456px;
+    height: 477px;
+    padding-right: 130px;
+}
+.depend-text{
+    padding-left: 130px;
+    margin-top: 50px;
+}
+.depend-title{
+    font-weight: 700;
+font-size: 45px;
+}
+.depend-description, .depend-sub-description{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+margin-bottom: 30px;
+}
+/* survive section */
+.survive-section{
+    display: flex;
+    margin-top: 100px;
+    gap: 85px;
+}
+.survive-section img{
+    width: 456px;
+    height: 477px;
+    padding-left: 130px;
+}
+.survive-text{
+    padding-right: 130px;
+    margin-top: 50px;
+}
+.survive-title{
+    font-weight: 700;
+font-size: 45px;
+}
+.survive-description, .survive-sub-description{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.update-section{
+    text-align: center;
+
+}
+.subscribe{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 0 120px;
+    padding: 50px 0;
+}
+.update-title{
+    font-weight: 700;
+font-size: 45px;
+}
+.update-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+.subscribe input{
+    width: 275px;
+    height: 48px;
+    border-radius:2px ;
+    background-color: blanchedalmond;
+    font-size: 23px;
+    padding-left: 10px;
+    border: none;
+    
+}
+.subscribe button{
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-size: 25px;
+    height: 52px;
+    border: none;
+    width: 200px;
+    border-radius: 2px;
+}
+.lobster{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+color: whitesmoke;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+footer p{
+    color: #707070;
 }
